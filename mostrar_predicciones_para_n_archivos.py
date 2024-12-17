@@ -1,15 +1,17 @@
+import random
+
 from predecir import Predecir
 import modulos as Mods
 import os  
 
 # carpeta principal donde estan todos los datos
 carpeta = 'Bioinfo_ DS/'
-
-funciones_busqueda = ["B&B"]
+random.seed(4)
+funciones_busqueda = ["SFS"]
 funciones_puntaje  = ["Inf_mutua", "Inf_mutua_penalizada"]
 
-numeros_archivos = [0, 1, 2, 3, 998, 999]
-
+numeros_archivos = [random.randint(0, 1000) for _ in range(500)]
+#numeros_archivos=[1,2,3,4,5,6,7,8,9,10,13, 987,988,989,990,991,992,993,994,995,996,997,998,999]
 # Recorrer todos los archivos con extensión .ged en la carpeta
 for archivo in os.listdir(carpeta):
     if archivo.endswith('.ged'):

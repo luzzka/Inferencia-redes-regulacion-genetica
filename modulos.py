@@ -1,12 +1,12 @@
 import numpy as np
-from itertools import product
+from itertools import product, combinations
 from collections import defaultdict
-import heapq
 import random
 from scipy.spatial.distance import hamming
 from sklearn.metrics import f1_score
 import matplotlib.pyplot as plt
 import seaborn as sns
+import heapq
 
 # =========================================================================================================
 def calcular_informacion_mutua(matriz_datos, combinacion_variables, objetivo):
@@ -443,6 +443,74 @@ def mostrar_resultados(resultados, resultados_markov, nombre_archivo):
 
     return fig_hamming, fig_fscore, fig_violin, fig_boxplot
 # =========================================================================================================
+
+def mejor_predictor_exhaustivo_sfs(matriz_datos, objetivo, max_combinaciones=4,
+                                   funcion_puntaje=calcular_informacion_mutua):
+    total_genes = set(range(matriz_datos.shape[1]))
+    mejor_prediccion = {
+        "combinacion": (),  # Inicialización segura con tupla vacía
+        "informacion_mutua": -1
+    }
+    mejor_tabla_conteo = None
+
+    # Búsqueda exhaustiva hasta combinaciones de tamaño 2
+    for k in [1, 2, 3]:
+        for combinacion in combinations(total_genes, k):
+            tabla_conteo = generar_tabla_conteo(matriz_datos, combinacion, objetivo)
+            informacion_mutua = funcion_puntaje(matriz_datos, combinacion, objetivo)
+
+            # Validar que funcion_puntaje no devuelva None
+            if informacion_mutua is not None and informacion_mutua > mejor_prediccion["informacion_mutua"]:
+                mejor_prediccion = {
+                    "combinacion": combinacion,
+                    "informacion_mutua": informacion_mutua
+                }
+                mejor_tabla_conteo = tabla_conteo
+
+    # Validar si se encontraron combinaciones válidas
+    if not mejor_prediccion["combinacion"]:
+        print("No se encontraron combinaciones válidas en la búsqueda exhaustiva.")
+        return {
+            "combinacion": (),
+            "informacion_mutua": 0,
+            "tabla_predicciones": []
+        }
+
+    # SFS: Expandir la mejor combinación actual
+    combinacion_actual = set(mejor_prediccion["combinacion"])
+    while len(combinacion_actual) < max_combinaciones:
+        mejor_candidato = None
+        mejor_puntaje = -1
+
+        for nuevo_gen in total_genes - combinacion_actual:
+            nueva_combinacion = tuple(sorted(combinacion_actual | {nuevo_gen}))
+            tabla_conteo = generar_tabla_conteo(matriz_datos, nueva_combinacion, objetivo)
+            informacion_mutua = funcion_puntaje(matriz_datos, nueva_combinacion, objetivo)
+
+            # Validar que funcion_puntaje no devuelva None
+            if informacion_mutua is not None and informacion_mutua > mejor_puntaje:
+                mejor_puntaje = informacion_mutua
+                mejor_candidato = nuevo_gen
+                mejor_tabla_conteo = tabla_conteo
+
+        # Si encontramos un mejor candidato, lo agregamos
+        if mejor_candidato is not None and mejor_puntaje > mejor_prediccion["informacion_mutua"]:
+            combinacion_actual.add(mejor_candidato)
+            mejor_prediccion = {
+                "combinacion": tuple(sorted(combinacion_actual)),
+                "informacion_mutua": mejor_puntaje
+            }
+        else:
+            break  # No hay mejora, detener la búsqueda
+
+    # Generar la lista concatenada a partir de la mejor tabla de conteo
+    lista_concatenada = generar_lista_concatenada(mejor_tabla_conteo) if mejor_tabla_conteo else []
+
+    return {
+        "combinacion": mejor_prediccion["combinacion"],
+        "informacion_mutua": mejor_prediccion["informacion_mutua"],
+        "tabla_predicciones": lista_concatenada  # Lista generada con las predicciones concatenadas
+    }
 
 
 # =========================================================================================================

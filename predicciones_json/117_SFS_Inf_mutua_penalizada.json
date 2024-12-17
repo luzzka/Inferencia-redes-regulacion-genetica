@@ -1,0 +1,212 @@
+{
+    "gen 0": {
+        "combinacion": [
+            24
+        ],
+        "informacion_mutua_maxima": -0.6746503258992247,
+        "prediccion": "00"
+    },
+    "gen 1": {
+        "combinacion": [
+            3
+        ],
+        "informacion_mutua_maxima": -0.02904940554533142,
+        "prediccion": "00"
+    },
+    "gen 2": {
+        "combinacion": [
+            17
+        ],
+        "informacion_mutua_maxima": -0.4750435259320023,
+        "prediccion": "10"
+    },
+    "gen 3": {
+        "combinacion": [
+            22
+        ],
+        "informacion_mutua_maxima": -0.2766437273743214,
+        "prediccion": "00"
+    },
+    "gen 4": {
+        "combinacion": [
+            23
+        ],
+        "informacion_mutua_maxima": -0.40244265263226164,
+        "prediccion": "10"
+    },
+    "gen 5": {
+        "combinacion": [
+            24
+        ],
+        "informacion_mutua_maxima": -0.639409402295648,
+        "prediccion": "10"
+    },
+    "gen 6": {
+        "combinacion": [
+            3
+        ],
+        "informacion_mutua_maxima": -0.22242807979079737,
+        "prediccion": "11"
+    },
+    "gen 7": {
+        "combinacion": [
+            1
+        ],
+        "informacion_mutua_maxima": -0.0352004514949128,
+        "prediccion": "11"
+    },
+    "gen 8": {
+        "combinacion": [
+            18
+        ],
+        "informacion_mutua_maxima": -0.8066003066633348,
+        "prediccion": "11"
+    },
+    "gen 9": {
+        "combinacion": [
+            5
+        ],
+        "informacion_mutua_maxima": -0.001154464004798239,
+        "prediccion": "10"
+    },
+    "gen 10": {
+        "combinacion": [
+            29
+        ],
+        "informacion_mutua_maxima": -0.0025984114322605834,
+        "prediccion": "11"
+    },
+    "gen 11": {
+        "combinacion": [
+            0
+        ],
+        "informacion_mutua_maxima": -0.7357527488425222,
+        "prediccion": "00"
+    },
+    "gen 12": {
+        "combinacion": [
+            9
+        ],
+        "informacion_mutua_maxima": -0.6785746515405606,
+        "prediccion": "11"
+    },
+    "gen 13": {
+        "combinacion": [
+            8
+        ],
+        "informacion_mutua_maxima": -0.5716152123248274,
+        "prediccion": "11"
+    },
+    "gen 14": {
+        "combinacion": [
+            7
+        ],
+        "informacion_mutua_maxima": -0.7579193111577713,
+        "prediccion": "00"
+    },
+    "gen 15": {
+        "combinacion": [
+            16
+        ],
+        "informacion_mutua_maxima": -0.23404769332958053,
+        "prediccion": "00"
+    },
+    "gen 16": {
+        "combinacion": [
+            10
+        ],
+        "informacion_mutua_maxima": -0.5531965611339322,
+        "prediccion": "11"
+    },
+    "gen 17": {
+        "combinacion": [
+            5
+        ],
+        "informacion_mutua_maxima": -0.493196240259945,
+        "prediccion": "00"
+    },
+    "gen 18": {
+        "combinacion": [
+            21
+        ],
+        "informacion_mutua_maxima": -0.5582994068764057,
+        "prediccion": "11"
+    },
+    "gen 19": {
+        "combinacion": [
+            12
+        ],
+        "informacion_mutua_maxima": -0.601361242673307,
+        "prediccion": "11"
+    },
+    "gen 20": {
+        "combinacion": [
+            19
+        ],
+        "informacion_mutua_maxima": -0.7217220882620565,
+        "prediccion": "11"
+    },
+    "gen 21": {
+        "combinacion": [
+            4
+        ],
+        "informacion_mutua_maxima": -0.6233074830548239,
+        "prediccion": "11"
+    },
+    "gen 22": {
+        "combinacion": [
+            29
+        ],
+        "informacion_mutua_maxima": -0.42626309246366223,
+        "prediccion": "00"
+    },
+    "gen 23": {
+        "combinacion": [
+            12
+        ],
+        "informacion_mutua_maxima": -0.767873997459413,
+        "prediccion": "01"
+    },
+    "gen 24": {
+        "combinacion": [
+            1
+        ],
+        "informacion_mutua_maxima": -0.5560350043653983,
+        "prediccion": "11"
+    },
+    "gen 25": {
+        "combinacion": [
+            9
+        ],
+        "informacion_mutua_maxima": -0.6785746515405606,
+        "prediccion": "11"
+    },
+    "gen 26": {
+        "combinacion": [
+            10
+        ],
+        "informacion_mutua_maxima": -0.588697561192655,
+        "prediccion": "11"
+    },
+    "gen 27": {
+        "combinacion": [
+            24
+        ],
+        "informacion_mutua_maxima": -0.17325362750738216,
+        "prediccion": "11"
+    },
+    "gen 28": {
+        "combinacion": [
+            26
+        ],
+        "informacion_mutua_maxima": -0.07518129502696991,
+        "prediccion": "00"
+    },
+    "gen 29": {
+        "combinacion": [
+            4
+        ],
+        "informacion_mutua_maxima": -0.4001659671416068,
+        "prediccion": "00"
+    }
+}
