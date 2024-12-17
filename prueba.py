@@ -14,5 +14,5 @@ clase_predicciones = Predecir(archivo_entrada, 'f', "SFS", "Inf_mutua")
 
 clase_predicciones.ejecutar_todo()
 
-clase_predicciones = Predecir(archivo_entrada, 'f', "SFS", "Inf_mutua_penalizada")
+clase_predicciones = Predecir(archivo_entrada, 'f', "B&B", "Inf_mutua_penalizada")
 clase_predicciones.ejecutar_todo()
