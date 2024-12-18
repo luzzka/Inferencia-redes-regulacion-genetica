@@ -23,6 +23,9 @@ class Predecir:
         # --------------------------------------------------------------------
         if self.nombre_tipo_busqueda == "B&B":
             self.funcion_busqueda = Mods.mejor_predictor_bb
+
+        if self.nombre_tipo_busqueda == "SFS":
+            self.funcion_busqueda = Mods.mejor_predictor_exhaustivo_sfs
         # poner el resto de opciones de busqueda
 
         if self.funcion_puntaje == "Inf_mutua":
