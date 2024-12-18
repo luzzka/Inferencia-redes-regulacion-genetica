@@ -1,0 +1,2174 @@
+{
+    "0": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    69,
+                    801
+                ]
+            ],
+            "fscore": 0.453,
+            "precision": 0.967,
+            "recall": 0.296
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    69,
+                    801
+                ]
+            ],
+            "fscore": 0.453,
+            "precision": 0.967,
+            "recall": 0.296
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "1": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    0
+                ],
+                [
+                    49,
+                    823
+                ]
+            ],
+            "fscore": 0.533,
+            "precision": 1.0,
+            "recall": 0.364
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    0
+                ],
+                [
+                    49,
+                    823
+                ]
+            ],
+            "fscore": 0.533,
+            "precision": 1.0,
+            "recall": 0.364
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    0
+                ],
+                [
+                    49,
+                    823
+                ]
+            ],
+            "fscore": 0.533,
+            "precision": 1.0,
+            "recall": 0.364
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    0
+                ],
+                [
+                    49,
+                    823
+                ]
+            ],
+            "fscore": 0.533,
+            "precision": 1.0,
+            "recall": 0.364
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "10": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    85,
+                    785
+                ]
+            ],
+            "fscore": 0.403,
+            "precision": 0.967,
+            "recall": 0.254
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    85,
+                    785
+                ]
+            ],
+            "fscore": 0.403,
+            "precision": 0.967,
+            "recall": 0.254
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    85,
+                    785
+                ]
+            ],
+            "fscore": 0.403,
+            "precision": 0.967,
+            "recall": 0.254
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    85,
+                    785
+                ]
+            ],
+            "fscore": 0.403,
+            "precision": 0.967,
+            "recall": 0.254
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "100": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    59,
+                    811
+                ]
+            ],
+            "fscore": 0.504,
+            "precision": 1.0,
+            "recall": 0.337
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    59,
+                    811
+                ]
+            ],
+            "fscore": 0.504,
+            "precision": 1.0,
+            "recall": 0.337
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "102": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    49,
+                    821
+                ]
+            ],
+            "fscore": 0.523,
+            "precision": 0.933,
+            "recall": 0.364
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    49,
+                    821
+                ]
+            ],
+            "fscore": 0.523,
+            "precision": 0.933,
+            "recall": 0.364
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "103": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    81,
+                    789
+                ]
+            ],
+            "fscore": 0.426,
+            "precision": 1.0,
+            "recall": 0.27
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    81,
+                    789
+                ]
+            ],
+            "fscore": 0.426,
+            "precision": 1.0,
+            "recall": 0.27
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "105": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    65,
+                    805
+                ]
+            ],
+            "fscore": 0.48,
+            "precision": 1.0,
+            "recall": 0.316
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    65,
+                    805
+                ]
+            ],
+            "fscore": 0.48,
+            "precision": 1.0,
+            "recall": 0.316
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "106": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    55,
+                    815
+                ]
+            ],
+            "fscore": 0.509,
+            "precision": 0.967,
+            "recall": 0.345
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    55,
+                    815
+                ]
+            ],
+            "fscore": 0.509,
+            "precision": 0.967,
+            "recall": 0.345
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "108": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    69,
+                    801
+                ]
+            ],
+            "fscore": 0.453,
+            "precision": 0.967,
+            "recall": 0.296
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    69,
+                    801
+                ]
+            ],
+            "fscore": 0.453,
+            "precision": 0.967,
+            "recall": 0.296
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "110": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    1
+                ],
+                [
+                    74,
+                    797
+                ]
+            ],
+            "fscore": 0.427,
+            "precision": 0.966,
+            "recall": 0.275
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    1
+                ],
+                [
+                    74,
+                    797
+                ]
+            ],
+            "fscore": 0.427,
+            "precision": 0.966,
+            "recall": 0.275
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "111": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    64,
+                    806
+                ]
+            ],
+            "fscore": 0.484,
+            "precision": 1.0,
+            "recall": 0.319
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    64,
+                    806
+                ]
+            ],
+            "fscore": 0.484,
+            "precision": 1.0,
+            "recall": 0.319
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "112": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    67,
+                    803
+                ]
+            ],
+            "fscore": 0.46,
+            "precision": 0.967,
+            "recall": 0.302
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    67,
+                    803
+                ]
+            ],
+            "fscore": 0.46,
+            "precision": 0.967,
+            "recall": 0.302
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "113": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    71,
+                    799
+                ]
+            ],
+            "fscore": 0.458,
+            "precision": 1.0,
+            "recall": 0.297
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    71,
+                    799
+                ]
+            ],
+            "fscore": 0.458,
+            "precision": 1.0,
+            "recall": 0.297
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "115": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.462,
+            "precision": 1.0,
+            "recall": 0.3
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.462,
+            "precision": 1.0,
+            "recall": 0.3
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "116": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    74,
+                    796
+                ]
+            ],
+            "fscore": 0.424,
+            "precision": 0.933,
+            "recall": 0.275
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    74,
+                    796
+                ]
+            ],
+            "fscore": 0.424,
+            "precision": 0.933,
+            "recall": 0.275
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "117": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.513,
+            "precision": 1.0,
+            "recall": 0.345
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.513,
+            "precision": 1.0,
+            "recall": 0.345
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "118": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    51,
+                    819
+                ]
+            ],
+            "fscore": 0.541,
+            "precision": 1.0,
+            "recall": 0.37
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    51,
+                    819
+                ]
+            ],
+            "fscore": 0.541,
+            "precision": 1.0,
+            "recall": 0.37
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "119": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    27,
+                    3
+                ],
+                [
+                    63,
+                    807
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.9,
+            "recall": 0.3
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    27,
+                    3
+                ],
+                [
+                    63,
+                    807
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.9,
+            "recall": 0.3
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "121": {
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    44,
+                    826
+                ]
+            ],
+            "fscore": 0.563,
+            "precision": 0.967,
+            "recall": 0.397
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    44,
+                    826
+                ]
+            ],
+            "fscore": 0.563,
+            "precision": 0.967,
+            "recall": 0.397
+        },
+        "mejor_modelo": "SFS_Inf_mutua"
+    },
+    "13": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    0
+                ],
+                [
+                    74,
+                    797
+                ]
+            ],
+            "fscore": 0.439,
+            "precision": 1.0,
+            "recall": 0.282
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    0
+                ],
+                [
+                    74,
+                    797
+                ]
+            ],
+            "fscore": 0.439,
+            "precision": 1.0,
+            "recall": 0.282
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    0
+                ],
+                [
+                    74,
+                    797
+                ]
+            ],
+            "fscore": 0.439,
+            "precision": 1.0,
+            "recall": 0.282
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    0
+                ],
+                [
+                    74,
+                    797
+                ]
+            ],
+            "fscore": 0.439,
+            "precision": 1.0,
+            "recall": 0.282
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "14": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "15": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    63,
+                    807
+                ]
+            ],
+            "fscore": 0.488,
+            "precision": 1.0,
+            "recall": 0.323
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    63,
+                    807
+                ]
+            ],
+            "fscore": 0.488,
+            "precision": 1.0,
+            "recall": 0.323
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "2": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    69,
+                    801
+                ]
+            ],
+            "fscore": 0.441,
+            "precision": 0.933,
+            "recall": 0.289
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    69,
+                    801
+                ]
+            ],
+            "fscore": 0.441,
+            "precision": 0.933,
+            "recall": 0.289
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    69,
+                    801
+                ]
+            ],
+            "fscore": 0.441,
+            "precision": 0.933,
+            "recall": 0.289
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    69,
+                    801
+                ]
+            ],
+            "fscore": 0.441,
+            "precision": 0.933,
+            "recall": 0.289
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "3": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    68,
+                    802
+                ]
+            ],
+            "fscore": 0.457,
+            "precision": 0.967,
+            "recall": 0.299
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    68,
+                    802
+                ]
+            ],
+            "fscore": 0.457,
+            "precision": 0.967,
+            "recall": 0.299
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    68,
+                    802
+                ]
+            ],
+            "fscore": 0.457,
+            "precision": 0.967,
+            "recall": 0.299
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    68,
+                    802
+                ]
+            ],
+            "fscore": 0.457,
+            "precision": 0.967,
+            "recall": 0.299
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "4": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    76,
+                    794
+                ]
+            ],
+            "fscore": 0.441,
+            "precision": 1.0,
+            "recall": 0.283
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    76,
+                    794
+                ]
+            ],
+            "fscore": 0.441,
+            "precision": 1.0,
+            "recall": 0.283
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    76,
+                    794
+                ]
+            ],
+            "fscore": 0.441,
+            "precision": 1.0,
+            "recall": 0.283
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    76,
+                    794
+                ]
+            ],
+            "fscore": 0.441,
+            "precision": 1.0,
+            "recall": 0.283
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "5": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    61,
+                    809
+                ]
+            ],
+            "fscore": 0.483,
+            "precision": 0.967,
+            "recall": 0.322
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    61,
+                    809
+                ]
+            ],
+            "fscore": 0.483,
+            "precision": 0.967,
+            "recall": 0.322
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    61,
+                    809
+                ]
+            ],
+            "fscore": 0.483,
+            "precision": 0.967,
+            "recall": 0.322
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    61,
+                    809
+                ]
+            ],
+            "fscore": 0.483,
+            "precision": 0.967,
+            "recall": 0.322
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "6": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 0.967,
+            "recall": 0.337
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 0.967,
+            "recall": 0.337
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 0.967,
+            "recall": 0.337
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 0.967,
+            "recall": 0.337
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "7": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    53,
+                    817
+                ]
+            ],
+            "fscore": 0.518,
+            "precision": 0.967,
+            "recall": 0.354
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    53,
+                    817
+                ]
+            ],
+            "fscore": 0.518,
+            "precision": 0.967,
+            "recall": 0.354
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    53,
+                    817
+                ]
+            ],
+            "fscore": 0.518,
+            "precision": 0.967,
+            "recall": 0.354
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    53,
+                    817
+                ]
+            ],
+            "fscore": 0.518,
+            "precision": 0.967,
+            "recall": 0.354
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "8": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    75,
+                    795
+                ]
+            ],
+            "fscore": 0.444,
+            "precision": 1.0,
+            "recall": 0.286
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    75,
+                    795
+                ]
+            ],
+            "fscore": 0.444,
+            "precision": 1.0,
+            "recall": 0.286
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    75,
+                    795
+                ]
+            ],
+            "fscore": 0.444,
+            "precision": 1.0,
+            "recall": 0.286
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    75,
+                    795
+                ]
+            ],
+            "fscore": 0.444,
+            "precision": 1.0,
+            "recall": 0.286
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "9": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "986": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    56,
+                    814
+                ]
+            ],
+            "fscore": 0.491,
+            "precision": 0.933,
+            "recall": 0.333
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    56,
+                    814
+                ]
+            ],
+            "fscore": 0.491,
+            "precision": 0.933,
+            "recall": 0.333
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "987": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    61,
+                    809
+                ]
+            ],
+            "fscore": 0.483,
+            "precision": 0.967,
+            "recall": 0.322
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    61,
+                    809
+                ]
+            ],
+            "fscore": 0.483,
+            "precision": 0.967,
+            "recall": 0.322
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    61,
+                    809
+                ]
+            ],
+            "fscore": 0.483,
+            "precision": 0.967,
+            "recall": 0.322
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    61,
+                    809
+                ]
+            ],
+            "fscore": 0.483,
+            "precision": 0.967,
+            "recall": 0.322
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "988": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    0
+                ],
+                [
+                    57,
+                    814
+                ]
+            ],
+            "fscore": 0.504,
+            "precision": 1.0,
+            "recall": 0.337
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    0
+                ],
+                [
+                    57,
+                    814
+                ]
+            ],
+            "fscore": 0.504,
+            "precision": 1.0,
+            "recall": 0.337
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    0
+                ],
+                [
+                    57,
+                    814
+                ]
+            ],
+            "fscore": 0.504,
+            "precision": 1.0,
+            "recall": 0.337
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    0
+                ],
+                [
+                    57,
+                    814
+                ]
+            ],
+            "fscore": 0.504,
+            "precision": 1.0,
+            "recall": 0.337
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "989": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.967,
+            "recall": 0.293
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.967,
+            "recall": 0.293
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.967,
+            "recall": 0.293
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.967,
+            "recall": 0.293
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "990": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    55,
+                    815
+                ]
+            ],
+            "fscore": 0.509,
+            "precision": 0.967,
+            "recall": 0.345
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    55,
+                    815
+                ]
+            ],
+            "fscore": 0.509,
+            "precision": 0.967,
+            "recall": 0.345
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    55,
+                    815
+                ]
+            ],
+            "fscore": 0.509,
+            "precision": 0.967,
+            "recall": 0.345
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    55,
+                    815
+                ]
+            ],
+            "fscore": 0.509,
+            "precision": 0.967,
+            "recall": 0.345
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "991": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 0.967,
+            "recall": 0.337
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 0.967,
+            "recall": 0.337
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 0.967,
+            "recall": 0.337
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    57,
+                    813
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 0.967,
+            "recall": 0.337
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "992": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    63,
+                    807
+                ]
+            ],
+            "fscore": 0.488,
+            "precision": 1.0,
+            "recall": 0.323
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    63,
+                    807
+                ]
+            ],
+            "fscore": 0.488,
+            "precision": 1.0,
+            "recall": 0.323
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    63,
+                    807
+                ]
+            ],
+            "fscore": 0.488,
+            "precision": 1.0,
+            "recall": 0.323
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    63,
+                    807
+                ]
+            ],
+            "fscore": 0.488,
+            "precision": 1.0,
+            "recall": 0.323
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "993": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    68,
+                    802
+                ]
+            ],
+            "fscore": 0.469,
+            "precision": 1.0,
+            "recall": 0.306
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    68,
+                    802
+                ]
+            ],
+            "fscore": 0.469,
+            "precision": 1.0,
+            "recall": 0.306
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    68,
+                    802
+                ]
+            ],
+            "fscore": 0.469,
+            "precision": 1.0,
+            "recall": 0.306
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    68,
+                    802
+                ]
+            ],
+            "fscore": 0.469,
+            "precision": 1.0,
+            "recall": 0.306
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "994": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    26,
+                    1
+                ],
+                [
+                    72,
+                    801
+                ]
+            ],
+            "fscore": 0.416,
+            "precision": 0.963,
+            "recall": 0.265
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    26,
+                    1
+                ],
+                [
+                    72,
+                    801
+                ]
+            ],
+            "fscore": 0.416,
+            "precision": 0.963,
+            "recall": 0.265
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    26,
+                    1
+                ],
+                [
+                    72,
+                    801
+                ]
+            ],
+            "fscore": 0.416,
+            "precision": 0.963,
+            "recall": 0.265
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    26,
+                    1
+                ],
+                [
+                    72,
+                    801
+                ]
+            ],
+            "fscore": 0.416,
+            "precision": 0.963,
+            "recall": 0.265
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "995": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    60,
+                    810
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 1.0,
+            "recall": 0.333
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    60,
+                    810
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 1.0,
+            "recall": 0.333
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    60,
+                    810
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 1.0,
+            "recall": 0.333
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    60,
+                    810
+                ]
+            ],
+            "fscore": 0.5,
+            "precision": 1.0,
+            "recall": 0.333
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "996": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    79,
+                    791
+                ]
+            ],
+            "fscore": 0.409,
+            "precision": 0.933,
+            "recall": 0.262
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    79,
+                    791
+                ]
+            ],
+            "fscore": 0.409,
+            "precision": 0.933,
+            "recall": 0.262
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    79,
+                    791
+                ]
+            ],
+            "fscore": 0.409,
+            "precision": 0.933,
+            "recall": 0.262
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    79,
+                    791
+                ]
+            ],
+            "fscore": 0.409,
+            "precision": 0.933,
+            "recall": 0.262
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "997": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    30,
+                    0
+                ],
+                [
+                    72,
+                    798
+                ]
+            ],
+            "fscore": 0.455,
+            "precision": 1.0,
+            "recall": 0.294
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "998": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.967,
+            "recall": 0.293
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.967,
+            "recall": 0.293
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.967,
+            "recall": 0.293
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    29,
+                    1
+                ],
+                [
+                    70,
+                    800
+                ]
+            ],
+            "fscore": 0.45,
+            "precision": 0.967,
+            "recall": 0.293
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    },
+    "999": {
+        "B&B_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    71,
+                    799
+                ]
+            ],
+            "fscore": 0.434,
+            "precision": 0.933,
+            "recall": 0.283
+        },
+        "B&B_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    71,
+                    799
+                ]
+            ],
+            "fscore": 0.434,
+            "precision": 0.933,
+            "recall": 0.283
+        },
+        "SFS_Inf_mutua": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    71,
+                    799
+                ]
+            ],
+            "fscore": 0.434,
+            "precision": 0.933,
+            "recall": 0.283
+        },
+        "SFS_Inf_mutua_penalizada": {
+            "matriz_confusion": [
+                [
+                    28,
+                    2
+                ],
+                [
+                    71,
+                    799
+                ]
+            ],
+            "fscore": 0.434,
+            "precision": 0.933,
+            "recall": 0.283
+        },
+        "mejor_modelo": "B&B_Inf_mutua"
+    }
+}

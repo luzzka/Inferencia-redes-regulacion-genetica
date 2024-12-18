@@ -3,7 +3,7 @@ from itertools import product, combinations
 from collections import defaultdict
 import random
 from scipy.spatial.distance import hamming
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score, precision_score, recall_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 import heapq
@@ -515,6 +515,101 @@ def mejor_predictor_exhaustivo_sfs(matriz_datos, objetivo, max_combinaciones=4,
 
 # =========================================================================================================
 
+# Lee un archivo de predicciones predicciones reales.
+def leer_predicciones_archivo(archivo):
+    """
+    Lee un archivo de predicciones y genera una matriz booleana basada en las relaciones de predicción.
+
+    :param archivo: Ruta al archivo de predicciones.
+    :return: Matriz booleana nxn donde n es el número de genes.
+    """
+    with open(archivo, 'r') as f:
+        lineas = f.readlines()
+
+    # Leer la primera línea para obtener el número de genes
+    encabezado = lineas[0]
+    num_genes = int(encabezado.split('|')[1])  # Ejemplo: "RANDOM|50|1.0"
+
+    # Inicializar matriz booleana con ceros
+    matriz_booleana = np.zeros((num_genes, num_genes), dtype=int)
+
+    # Procesar cada línea (a partir de la segunda)
+    for i, linea in enumerate(lineas[1:num_genes + 1]):
+        predictores, _ = linea.split('|', 1)  # Ignorar el texto después de '|'
+
+        if predictores.strip() != "NN":  # Si no es NN, hay predictores
+            indices_predictores = map(int, predictores.split(','))  # Convertir a enteros
+            for predictor in indices_predictores:
+                matriz_booleana[i, predictor] = 1  # Marcar relación en la matriz
+
+    return num_genes, matriz_booleana
+
 
 # =========================================================================================================
 
+# Funcion que crea una matriz booleana que indica las relaciones de predicción entre genes.
+def crear_matriz_booleana(mejores_combinaciones: dict, num_genes: int):
+    # Inicializar matriz booleana con ceros
+    matriz_booleana = np.zeros((num_genes, num_genes), dtype=int)
+
+    # Rellenar la matriz en base a las mejores combinaciones
+    for gen_key, valores in mejores_combinaciones.items():
+        target_gen = int(gen_key.split(' ')[1])  # Extraer el índice del gen
+        if "combinacion" in valores and valores["combinacion"]:
+            for predictor in valores["combinacion"]:
+                matriz_booleana[target_gen, predictor] = 1
+
+    return matriz_booleana
+
+# =========================================================================================================
+
+# Genera la matriz de confusión y calcula métricas relevantes.
+def generar_metricas_predicciones(matriz_resultados_obtenidos, matriz_real):
+    """
+    Genera la matriz de confusión y calcula métricas relevantes.
+
+    Args:
+        matriz_real (np.ndarray): Matriz con los valores reales (ground truth).
+        matriz_resultados_obtenidos (np.ndarray): Matriz con las predicciones.
+
+    Returns:
+        dict: Diccionario con la matriz de confusión y las métricas (f-score, precisión, recall).
+    """
+    # Aplanar las matrices para facilitar el cálculo
+    y_real = matriz_real.flatten()
+    y_pred = matriz_resultados_obtenidos.flatten()
+
+    # Calcular los valores de la matriz de confusión
+    TP = np.sum((y_real == 1) & (y_pred == 1))  # Verdaderos Positivos
+    FP = np.sum((y_real == 0) & (y_pred == 1))  # Falsos Positivos
+    FN = np.sum((y_real == 1) & (y_pred == 0))  # Falsos Negativos
+    TN = np.sum((y_real == 0) & (y_pred == 0))  # Verdaderos Negativos
+
+    # Matriz de confusión como lista
+    matriz_confusion = [[TP, FP], [FN, TN]]
+
+    # Calcular métricas
+    precision = precision_score(y_real, y_pred, zero_division=0)
+    recall = recall_score(y_real, y_pred, zero_division=0)
+    fscore = f1_score(y_real, y_pred, zero_division=0)
+
+    # Formato final del resultado
+    resultado = {
+        "matriz_confusion": matriz_confusion,
+        "fscore": round(fscore, 3),
+        "precision": round(precision, 3),
+        "recall": round(recall, 3)
+    }
+
+    return resultado
+
+
+# =========================================================================================================
+
+# =========================================================================================================
+
+# =========================================================================================================
+
+# =========================================================================================================
+
+# =========================================================================================================
